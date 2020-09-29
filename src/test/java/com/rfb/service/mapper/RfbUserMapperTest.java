@@ -9,11 +9,11 @@ public class RfbUserMapperTest {
     private RfbUserMapper rfbUserMapper;
 
     @BeforeEach
-    public void setUp() {
-        rfbUserMapper = new RfbUserMapperImpl();
-    }
+//    public void setUp() {
+//        rfbUserMapper = new RfbUserMapperImpl();
+//    }
 
-    @Test
+    // @Test
     public void testEntityFromId() {
         Long id = 1L;
         assertThat(rfbUserMapper.fromId(id).getId()).isEqualTo(id);
