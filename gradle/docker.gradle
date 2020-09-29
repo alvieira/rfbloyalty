@@ -4,7 +4,6 @@ jib {
     }
     to {
         image = "registry-1.docker.io/alvieira/rfbloyalty:latest"
-        credHelper = 'secretservice'
     }
     container {
         entrypoint = ["bash", "-c", "/entrypoint.sh"]
